@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="text-white">
+        <div class="container">
+        <form action="action.php">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-10">
+                    <div class="card" id="card">
+                        <div class="card-header bg-primary">
+                            <h1 id="card-header">Google form</h1>
+                        </div>
+                        <div class="card-body" id="card-body">
+                            <div>
+                                <label class="form-label">E-mail : <span>*</span></label>
+                                <input class="form-control" type="email" placeholder="E-mail" required>
+            
+                                <label class="form-label">Name : <span>*</span></label>
+                                <input class="form-control" type="text" placeholder="Name" required>
+            
+                                <label class="form-label">Reg No : <span>*</span></label>
+                                <input class="form-control" type="number" placeholder="Reg No" required>
+            
+                                <label class="form-label">Branch : <span>*</span></label>
+                                <select class="form-control" required>
+                                    <option id="placeholder"><---Select Batch---></option>
+                                    <option>B.E</option>
+                                    <option>B.Tech</option>
+                                    <option>M.E</option>
+                                    <option>M.Tech</option>
+                                </select>
+            
+                                <label class="form-label">Degree : <span>*</span></label>
+                                <select  class="form-control" required>
+                                    <option id="placeholder"><---Select Degree---></option>
+                                    <option>Computer Science</option>
+                                    <option>Information Technology</option>
+                                    <option>Civil Engineering</option>
+                                    <option>Electronic Engineering</option>
+                                    <option>Textile Technology</option>
+                                    <option>Mechanical Engineering</option>
+                                    <option>Mechatronics</option>
+                                    <option>Food Technology</option>
+                                    <option>Bio Technology</option>
+                                </select>
+            
+                                <label class="form-label">Sec : <span>*</span></label>
+                                <div class="ps-4">
+                                    <input type="radio" id="radio-color" name="sec" required>
+                                    <label class="form-label" value="B"  id="radio">A</label>
+                                    <input type="radio" id="radio-color" name="sec" required>
+                                    <label class="form-label" value="B"  id="radio">B</label>
+                                </div>
+            
+                                <label class="form-label">Age : <span>*</span></label>
+                                <div class="ps-4">
+                                    <input type="radio" id="radio-color" name="age" required>
+                                    <label class="form-label" value="B"  id="radio">Above 18</label>
+                                    <input type="radio" id="radio-color" name="age" required>
+                                    <label class="form-label" value="B"  id="radio">Below 18</label>
+                                </div>
+            
+                                <label class="form-label">Gender : <span>*</span></label>
+                                <div class="ps-4">
+                                    <input type="radio" id="radio-color"  name="gender" required>
+                                    <label class="form-label" value="B" id="radio">Male</label>
+                                    <input type="radio" id="radio-color"  name="gender" required>
+                                    <label class="form-label" value="B" id="radio">Female</label>
+                                    <input type="radio" id="radio-color"  name="gender" required>
+                                    <label class="form-label" value="B" id="radio">Others</label>
+                                </div>
+            
+                                <label class="form-label">Phone number : <span>*</span></label>
+                                <input class="form-control" type="tel" placeholder="Number" required>
+            
+                                <label class="form-label">College Name : <span>*</span></label>
+                                <input class="form-control" type="text" placeholder="College Name" required>
+            
+                                <label class="form-label">District : <span>*</span></label>
+                                <input class="form-control" type="text" placeholder="District" required>
+            
+                                <label class="form-label">File : </label>
+                                <input class="form-control" type="file">
+            
+                                <div id="btn">
+                                    <button class="mt-5" type="submit">Submit</button>
+                                    <button class="mt-5 bg-danger" type="reset">Reset</button>
+                                </div>
+                                
+            
+                            </div>
+                        </div>
+                        <div class="card-footer bg-primary">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+        </form>
+        </div>
+</body>
+</html>

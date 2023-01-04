@@ -1,0 +1,49 @@
+#card-header{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 17px;
+}
+#radio-color{
+    accent-color: rgb(0, 0, 255);
+}
+#radio{
+    padding-right: 20px;
+}
+.form-label{
+    margin-top: 25px;
+}
+button{
+    background-color:rgb(234, 234, 39);
+    color: black;
+    width: 100px;
+    margin-right: 10px;
+}
+button:hover{
+    background-color:blue;
+    color: white;
+}
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#card{
+    font-size:large;
+}
+#card-body{
+    background-color: rgba(0, 0, 0, 0.827);
+    padding: 40px;
+}
+span{
+    color: rgb(254, 71, 71);
+}
+#btn{
+    text-align: center;
+}
+#placeholder{
+    color:grey;
+}
+option:hover{
+    background-color: aqua;
+}
+form{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
